@@ -4,21 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <meta name="description" content="Sector's Edge tournament teams">
+  <meta name="description" content="Sector's Edge tournament">
   <meta name="keywords" content="#7Days7Websites, the noah, vercidium, sectors edge">
   <meta name="author" content="The Noah">
-  <meta property="og:description" content="Sector's Edge tournament teams">
+  <meta property="og:description" content="Sector's Edge tournament">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="Sector's Edge Tournament Teams">
   <meta property="og:site_name" content="Sector's Edge Tournament Teams">
   <meta property="og:url" content="https://the-noah.github.io/sectors-edge-tournament-teams">
   <meta property="og:image" content="https://the-noah.github.io/sectors-edge-tournament-teams/favicon.ico">
-  <title>Sector's Edge Tournament Teams</title>
+  <title>Sector's Edge Tournament</title>
   <style><%- css -%></style>
 </head>
 <body>
-  <h1>:)</h1>
-  <footer>Copyright &copy; 2020 The Noah</footer>
+  <div style="flex:1">
+    <img src="banner.png" width="100%">
+    <div class="section">
+      <h1>Sector's Edge Tournament</h1>
+      <p>We will be running a tournament on the 4th of April at 7pm GMT!</p>
+      <h4>Info</h4>
+      <p>It will be a knockout tournament, where each round is best-of-three on three different maps, on servers chosen for ping fairness.</p>
+      <p>As we are streaming the tournament on Twitch and will use recorded footage to advertise the game, we have decided to run the Salvage game mode as it better showcases the game mechanics and maps.</p>
+      <h4>Rewards</h4>
+      <p>
+        10000 <img src="proton.png" alt="protons" title="Protons"> for each player in the winning team.<br/>
+        5000 <img src="proton.png" alt="protons" title="Protons"> for each player in the runner-up team.
+      </p>
+      <p>Register your team of 4, or sign up individually and we will place you in a team:&nbsp;<a href="https://sectorsedge.com/tournament" target="_blank" rel="noopener noreferrer">sectorsedge.com/tournament</a>.</p>
+      <p>See you all at the Salvage Cup! May the best team win!</p>
+      <h4>Watch</h4>
+      <p>Streaming at:&nbsp;<a href="https://twitch.tv/vercidium" target="_blank" rel="noopener noreferrer">twitch.tv/vercidium</a>.</p>
+    </div>
+    <div class="section">
+      <h1>Current Teams</h1><br/>
+      <div class="cards">
+        <% teams.forEach(function(team){ %>
+          <div>
+            <h4><%- team.name %></h4>
+            <p><b>Members:</b>&nbsp;<%- team.members.join(", ") %></p>
+          </div>
+        <% }); %>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div>
+      <div>
+        <span>Navigation</span>
+        <a class="animated" href="#">Home</a>
+        <a class="animated" href="https://sectorsedge.com/" target="_blank" rel="noopener noreferrer">Game</a>
+      </div>
+      <div>
+        <span>Social</span>
+        <a class="animated" href="https://store.steampowered.com/app/1024890/Sectors_Edge/" target="_blank" rel="noopener noreferrer">Steam</a>
+        <a class="animated" href="https://www.youtube.com/channel/UCMwLVepB4YOgpyo48iyg7HA" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <a class="animated" href="https://www.twitch.tv/vercidium" target="_blank" rel="noopener noreferrer">Twitch</a>
+        <a class="animated" href="https://www.instagram.com/vercidium/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="animated" href="https://www.twitter.com/vercidium/" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a class="animated" href="https://discordapp.com/invite/87NvZhn" target="_blank" rel="noopener noreferrer">Discord</a>
+        <a class="animated" href="https://vercidium.itch.io/sectorsedge" target="_blank" rel="noopener noreferrer">Itch</a>
+        <a class="animated" href="https://emberapp.gg/profile/580-vercidium/" target="_blank" rel="noopener noreferrer">Ember</a>
+      </div>
+    </div><br/>
+    <p>© 2020 sectorsedge.com</p>
+  </footer>
 </body>
 </html>

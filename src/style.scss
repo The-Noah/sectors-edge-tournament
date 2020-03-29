@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 
-$border-radius: .3rem;
-$shadow: 0 2px 32px rgba(0, 0, 0, .1), 0 1px 8px rgba(0, 0, 0, .05);
+$color-primary: #0C4DF3;
+$border-radius: 5px;
 
 @mixin mobile{
   @media only screen and (max-width: 768px){
@@ -10,54 +10,208 @@ $shadow: 0 2px 32px rgba(0, 0, 0, .1), 0 1px 8px rgba(0, 0, 0, .05);
 }
 
 *{
-  color: #444;
+  color: #555;
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
 
 :root{
   font-size: 18px;
+  line-height: 1.5;
+}
+
+html, body{
+  height: 100%;
 }
 
 body{
   margin: 0;
-  background-color: #F0F0F0;
+  background-color: #FAFAFA;
   font-family: Montserrat, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-footer{
-  padding: 3rem 0 .3rem 0;
-  font-size: .8rem;
+a{
+  color: $color-primary;
+  text-decoration: none;
+  border-bottom: 2px solid $color-primary;
+}
 
-  &, *{
-    color: #777;
+a.animated{
+  color: #FFF;
+  padding: 8px 0;
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+
+  &:after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #FFF;
+    position: absolute;
+    top: calc(100% - 3px);
+    right: 0;
+    transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+  }
+
+  &:hover:after{
+    width: 100%;
+    left: 0;
   }
 }
 
-h1, h2, h3{
+h1, h4{
   margin: 0;
-  color: #333;
+}
+
+h1, h4{
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 h1{
-  font-size: 5rem;
-  font-weight: 200;
+  color: #252525;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+}
 
-  @include mobile{
-    font-size: 3rem;
+h4{
+  font-size: 1.1rem;
+}
+
+p img{
+  height: 1rem;
+}
+
+button{
+  padding: 4px 12px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 0;
+
+  &:hover{
+    background-color: #EEE;
   }
 }
 
-h2{
-  font-size: 2.5rem;
-  font-weight: 400;
+footer{
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-image: url("veteranmin.jpg");
+  background-position: top 60px left 0px;
+  background-repeat: no-repeat;
+  background-color: #000;
+  font-size: .9rem;
 
   @include mobile{
-    font-size: 1.5rem;
+    background-position: bottom left -32px;
+    background-size: 164px;
+  }
+
+  &, *{
+    color: #FFF;
+  }
+
+  & > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    @include mobile{
+      flex-direction: column;
+    }
+
+    & > div{
+      flex-basis: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @include mobile{
+        flex-basis: 150px;
+      }
+
+      & > span{
+        color: #FFFA;
+        text-transform: uppercase;
+        font-size: .9rem;
+        letter-spacing: 2px;
+      }
+
+      & > *{
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  & > p{
+    text-align: center;
+  }
+}
+
+.button{
+  padding: 7px 25px;
+  color: #FFF;
+  background-color: $color-primary;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 34px;
+
+  &:hover{
+    background-color: lighten($color-primary, 2);
+  }
+}
+
+.section{
+  width: 65%;
+  margin: 0 auto;
+  padding: 3rem 0;
+
+  @include mobile{
+    width: 90%;
+    padding: 1rem 0;
+  }
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+
+  @include mobile{
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  & > div{
+    padding: .7rem 1.2rem;
+    background-color: #FFF;
+    box-shadow: 0 2px 24px rgba(0, 0, 0, .1), 0 1px 2px rgba(0, 0, 0, .05);
+    display: flex;
+    flex-direction: column;
+    border-radius: $border-radius;
+    -webkit-touch-callout: none;
+
+    @include mobile{
+      padding: .4rem .9rem;
+    }
+
+    &:hover{
+      box-shadow: 0 4px 24px rgba(0, 0, 0, .18);
+    }
+
+    p{
+      font-size: .9rem;
+    }
   }
 }
