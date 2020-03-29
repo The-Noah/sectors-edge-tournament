@@ -19,7 +19,7 @@ const build = () => {
     fs.readdirSync(buildDir).forEach((file) => fs.unlinkSync(path.join(buildDir, file)));
   }
 
-  // fs.copyFileSync(path.join(srcDir, "favicon.ico"), path.join(buildDir, "favicon.ico"));
+  fs.copyFileSync(path.join(srcDir, "favicon.ico"), path.join(buildDir, "favicon.ico"));
 
   const teams = JSON.parse(fs.readFileSync(path.join(srcDir, "teams.json"), "utf8"));
 
