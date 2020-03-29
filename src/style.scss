@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap");
+
+$border-radius: .3rem;
+$shadow: 0 2px 32px rgba(0, 0, 0, .1), 0 1px 8px rgba(0, 0, 0, .05);
+
+@mixin mobile{
+  @media only screen and (max-width: 768px){
+    @content;
+  }
+}
+
+*{
+  color: #444;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root{
+  font-size: 18px;
+}
+
+body{
+  margin: 0;
+  background-color: #F0F0F0;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+footer{
+  padding: 3rem 0 .3rem 0;
+  font-size: .8rem;
+
+  &, *{
+    color: #777;
+  }
+}
+
+h1, h2, h3{
+  margin: 0;
+  color: #333;
+}
+
+h1{
+  font-size: 5rem;
+  font-weight: 200;
+
+  @include mobile{
+    font-size: 3rem;
+  }
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 400;
+
+  @include mobile{
+    font-size: 1.5rem;
+  }
+}

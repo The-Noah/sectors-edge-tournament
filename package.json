@@ -1,0 +1,28 @@
+{
+  "name": "sectors-edge-tournament-teams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "start": "node build watch",
+    "build": "node build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Noah/sectors-edge-tournament-teams.git"
+  },
+  "author": "The Noah (https://github.com/The-Noah)",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/The-Noah/sectors-edge-tournament-teams/issues"
+  },
+  "homepage": "https://github.com/The-Noah/sectors-edge-tournament-teams#readme",
+  "devDependencies": {
+    "ejs": "^3.0.2",
+    "gh-pages": "^2.2.0",
+    "html-minifier": "^4.0.0",
+    "node-sass": "^4.13.1"
+  }
+}
