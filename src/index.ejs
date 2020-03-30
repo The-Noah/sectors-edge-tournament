@@ -44,7 +44,10 @@
         <% teams.forEach(function(team){ %>
           <div>
             <h4><%- team.name %></h4>
-            <p><b>Members:</b>&nbsp;<%- team.members.join(", ") %></p>
+            <p>
+              <b>Members</b><br/>
+              <%- team.members.join("<br>") %>
+            </p>
           </div>
         <% }); %>
       </div>
