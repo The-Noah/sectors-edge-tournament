@@ -1,5 +1,5 @@
 {
-  "name": "sectors-edge-tournament-teams",
+  "name": "sectors-edge-tournament",
   "version": "1.0.0",
   "description": "",
   "main": "build.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/The-Noah/sectors-edge-tournament-teams.git"
+    "url": "git+https://github.com/The-Noah/sectors-edge-tournament.git"
   },
   "author": "The Noah (https://github.com/The-Noah)",
   "license": "",
   "bugs": {
-    "url": "https://github.com/The-Noah/sectors-edge-tournament-teams/issues"
+    "url": "https://github.com/The-Noah/sectors-edge-tournament/issues"
   },
-  "homepage": "https://github.com/The-Noah/sectors-edge-tournament-teams#readme",
+  "homepage": "https://the-noah.github.io/sectors-edge-tournament/",
   "devDependencies": {
     "ejs": "^3.0.2",
     "gh-pages": "^2.2.0",
