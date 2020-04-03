@@ -1,6 +1,6 @@
 [
   {
-    "name": "IDK Yet",
+    "name": "'& Randoms and a dream (sic)' (sic)",
     "members": ["gen", "BlocknBoom!", "Prrin", "No_Luke_No_Life_No_Lazy", "S!lence (Reserve)"],
     "countries": ["EU", "EU", "USA", "EU", "EU"]
   },
@@ -20,18 +20,28 @@
     "countries": ["EU", "EU", "USA", "EU"]
   },
   {
+    "name": "Wast//ES",
+    "members": ["Papercat84"],
+    "countries": ["??"]
+  },
+  {
     "name": "The Inferior Team",
     "members": ["Tank", "Satsfied Onion", "d3nk", "Foraleaux"],
     "countries": ["EU", "USA", "EU", "EU"]
   },
   {
-    "name": "Pega Says No",
-    "members": ["Pegarex"],
-    "countries": ["USA"]
+    "name": "True Blue Crew",
+    "members": ["Pegarex", "tTulonatotal", "SkiTTe", "Nascarboy"],
+    "countries": ["USA", "USA", "USA", "USA"]
+  },
+  {
+    "name": "Oecoll",
+    "members": ["Oecoll"],
+    "countries": ["??"]
   },
   {
     "name": "Individuals",
-    "members": ["CrêpeXI", "Samson1", "Bence", "Milky Way", "tTulonatotal", "pink little pig"],
+    "members": ["CrêpeXI", "Samson1", "Bence", "Azimuth", "pink little pig", "Syndelis"],
     "countries": ["EU", "EU", "EU", "USA", "USA", "USA"]
   }
 ]
