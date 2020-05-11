@@ -101,19 +101,6 @@ p img{
   height: 1rem;
 }
 
-button{
-  padding: 4px 12px;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  border-radius: 0;
-
-  &:hover{
-    background-color: #EEE;
-  }
-}
-
 small{
   color: #777;
   font-size: .8rem;
@@ -207,31 +194,21 @@ ul{
   margin: 2rem 0;
 }
 
-.button{
-  padding: 7px 25px;
-  color: #FFF;
-  background-color: $color-primary;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  line-height: 34px;
-
-  &:hover{
-    background-color: lighten($color-primary, 2);
-  }
-}
-
 .banner{
   width: 100%;
-  height: 128px;
+  height: 150px;
   background: url("banner.png") center no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 
+  @include mobile{
+    height: 100px;
+  }
+
   svg{
+    max-width: 90%;
     height: 128px;
   }
 }
