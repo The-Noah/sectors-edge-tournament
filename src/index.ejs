@@ -30,8 +30,8 @@
       <p>As we are streaming the tournament on <a href="https://twitch.tv/vercidium" target="_blank" rel="noopener noreferrer">Twitch</a> and will use recorded footage to advertise the game, we have decided to run the Salvage game mode as it better showcases the game mechanics and maps.</p>
       <h2>Rewards</h2>
       <p>
-        10000 <img src="proton.png" alt="protons" title="Protons"> for each player in the winning team.<br>
-        5000 <img src="proton.png" alt="protons" title="Protons"> for each player in the runner-up team.
+        10000 <%- include("proton") %> for each player in the winning team.<br>
+        5000 <%- include("proton") %> for each player in the runner-up team.
       </p>
       <p>Register your team of 4, or sign up individually and we will place you in a team: <a href="https://sectorsedge.com/tournament" target="_blank" rel="noopener noreferrer">sectorsedge.com/tournament</a>.</p>
       <p>See you all at the Salvage Cup! May the best team win!</p>
@@ -76,7 +76,7 @@
                 <p>
                   <%= `${team.place}${team.place === 1 ? "st" : team.place === 2 ? "nd" : team.place === 3 ? "rd" : "th"}` %> place.
                   <% if(tournament.prizes[team.place - 1]){ %>
-                    <%= tournament.prizes[team.place - 1] %> <img src="proton.png" alt="protons" title="Protons"> for each player.
+                    <%= tournament.prizes[team.place - 1] %> <%- include("proton") %> for each player.
                   <% } %>
                 </p>
                 Members:
