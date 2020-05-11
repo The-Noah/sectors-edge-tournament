@@ -2,7 +2,7 @@
   {
     "name": "Salvage Cup 2",
     "timestamp": 1586023200,
-    "bracket": "https://challonge.com/salvagecup2",
+    "bracket": "salvagecup2",
     "casters": ["Grandy", "Vercidium"],
     "prizes": [10000, 5000],
     "stats": [
@@ -92,6 +92,82 @@
         "name": "Hissing noises",
         "members": ["oecoll", "flufall", "Tenuous", "Azimuth"],
         "place": 7
+      }
+    ]
+  },
+  {
+    "name": "Salvage Cup 1",
+    "timestamp": 1574539200,
+    "bracket": "se_salvagecup",
+    "casters": ["Grandy", "Tank"],
+    "prizes": [],
+    "stats": [
+      {
+        "name": "Highest Points",
+        "value": 39616,
+        "player": "deWolf"
+      },
+      {
+        "name": "Highest Kills",
+        "value": 202,
+        "player": "deWolf"
+      },
+      {
+        "name": "Most Deaths",
+        "value": 158,
+        "player": "Dodo_Sandvich"
+      },
+      {
+        "name": "Most Headshots",
+        "value": 52,
+        "player": "deWolf"
+      },
+      {
+        "name": "Highest KDR",
+        "value": 2.468,
+        "player": "Coco"
+      },
+      {
+        "name": "Highest Headshot Kill %",
+        "value": 0,
+        "player": "Unknown"
+      },
+      {
+        "name": "Most Knife Kills",
+        "value": 9,
+        "player": "gen"
+      },
+      {
+        "name": "Most Blocks Placed",
+        "value": 14875,
+        "player": "Dodo_Sandvich"
+      },
+      {
+        "name": "Most Blocks Destroyed",
+        "value": 22496,
+        "player": "Vercidium"
+      }
+    ],
+    "teams": [
+      {
+        "name": "Olympic Community Gaming",
+        "members": ["Markus", "Jeff", "Jeff's Cookies", "Rexer"],
+        "place": 4
+      },
+      {
+        "name": "Cool Inspirational Lords of Swag",
+        "members": ["gen", "Foralux", "Luke", "d3Nk"],
+        "place": 3
+      },
+      {
+        "name": "Coco's Pink Unicorn Team",
+        "members": ["Coco", "Aranet", "Vercidium", "Glassar"],
+        "place": 1
+      },
+      {
+        "name": "Dastardly Fiends",
+        "members": ["deWolf", "Dodo Sandwich", "Silence", "Nascarboy"],
+        "place": 2
       }
     ]
   }

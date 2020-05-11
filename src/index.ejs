@@ -46,8 +46,8 @@
         <div>
           <h1><%= tournament.name %></h1>
           <p>
-            Held at <%= date.getUTCHours() > 12 ? date.getUTCHours() - 12 : date.getUTCHours() === 0 ? 12 : date.getUTCHours() %>:<%= `${date.getUTCMinutes() < 10 ? "0" : ""}${date.getUTCMinutes()}` %><%= date.getUTCHours() >= 12 ? "pm" : "am" %> on <%= date.getUTCFullYear() %>-<%= date.getUTCMonth() + 1 %>-<%= date.getUTCDate() %> UTC.
-            <a href="<%= tournament.bracket %>" target="_blank" rel="noopener noreferrer">View bracket</a>.
+            Held at <%= date.getUTCHours() > 12 ? date.getUTCHours() - 12 : date.getUTCHours() === 0 ? 12 : date.getUTCHours() %>:<%= `${date.getUTCMinutes() < 10 ? "0" : ""}${date.getUTCMinutes()}` %><%= date.getUTCHours() >= 12 ? "pm" : "am" %> UTC on <%= date.getUTCFullYear() %>-<%= date.getUTCMonth() + 1 %>-<%= date.getUTCDate() %>.
+            <a href="https://challonge.com/<%= tournament.bracket %>" target="_blank" rel="noopener noreferrer">View bracket</a>.
           </p>
           <h2>Statistics</h2>
           <table>
@@ -74,7 +74,7 @@
               <div>
                 <h2><%= team.name %></h2>
                 <p>
-                  <%= `${team.place}${team.place === 1 ? "st" : team.place === 2 ? "nd" : team.place === 3 ? "rd" : "th"}` %> place.
+                  <%= `${team.place}${team.place === 1 ? "st" : team.place === 2 ? "nd" : team.place === 3 ? "rd" : "th"}` %> Place.
                   <% if(tournament.prizes[team.place - 1]){ %>
                     <%= tournament.prizes[team.place - 1] %> <%- include("proton") %> for each player.
                   <% } %>
