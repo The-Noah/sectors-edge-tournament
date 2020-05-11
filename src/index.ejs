@@ -91,23 +91,6 @@
         </div>
       <% }) %>
     </div>
-    <div class="section">
-      <h1>Current Teams</h1>
-      <div class="cards">
-        <% teams.forEach((team) => { %>
-          <div>
-            <h2><%- team.name %></h2>
-            <p>
-              <b>Members</b><br>
-              <!-- <%- team.members.join("<br>") %> -->
-              <% team.members.forEach((member, index) => { %>
-                <%- member %> <small>(<%- team.countries[index] %>)</small><br>
-              <% }); %>
-            </p>
-          </div>
-        <% }); %>
-      </div>
-    </div>
   </div>
   <footer>
     <div>
