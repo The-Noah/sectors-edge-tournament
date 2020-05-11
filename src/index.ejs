@@ -45,7 +45,10 @@
       %>
         <div>
           <h1><%= tournament.name %></h1>
-          <p>Held at <%= date.getUTCHours() > 12 ? date.getUTCHours() - 12 : date.getUTCHours() === 0 ? 12 : date.getUTCHours() %>:<%= `${date.getUTCMinutes() < 10 ? "0" : ""}${date.getUTCMinutes()}` %><%= date.getUTCHours() >= 12 ? "pm" : "am" %> on <%= date.getUTCFullYear() %>-<%= date.getUTCMonth() + 1 %>-<%= date.getUTCDate() %> UTC.</p>
+          <p>
+            Held at <%= date.getUTCHours() > 12 ? date.getUTCHours() - 12 : date.getUTCHours() === 0 ? 12 : date.getUTCHours() %>:<%= `${date.getUTCMinutes() < 10 ? "0" : ""}${date.getUTCMinutes()}` %><%= date.getUTCHours() >= 12 ? "pm" : "am" %> on <%= date.getUTCFullYear() %>-<%= date.getUTCMonth() + 1 %>-<%= date.getUTCDate() %> UTC.
+            <a href="<%= tournament.bracket %>" target="_blank" rel="noopener noreferrer">View bracket</a>.
+          </p>
           <h2>Statistics</h2>
           <table>
             <thead>
