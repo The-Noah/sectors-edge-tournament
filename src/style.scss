@@ -18,6 +18,7 @@ $border-radius: 5px;
 :root{
   font-size: 18px;
   line-height: 1.5;
+  scroll-behavior: smooth;
 
   @include mobile{
     font-size: 16px;
@@ -187,11 +188,11 @@ th{
 }
 
 ul{
-  margin: .5rem 0;
+  margin: 0;
 }
 
 #tournaments > div{
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 .banner{

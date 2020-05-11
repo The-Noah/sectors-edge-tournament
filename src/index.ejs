@@ -39,11 +39,16 @@
       <p>Streaming at: <a href="https://twitch.tv/vercidium" target="_blank" rel="noopener noreferrer">twitch.tv/vercidium</a>.</p>
     </div>
     <div class="section" id="tournaments">
-      <h2>Past Tournaments</h2>
+      <h2>Past Tournaments</h2><br>
+      <ul>
+        <% tournaments.forEach((tournament) => { %>
+          <li><a href="#<%= tournament.name.toLowerCase().replace(/ /g, "-") %>"><%= tournament.name %></a></li>
+        <% }) %>
+      </ul>
       <% tournaments.forEach((tournament) => {
         const date = new Date(tournament.timestamp * 1000);
       %>
-        <div>
+        <div id="<%= tournament.name.toLowerCase().replace(/ /g, "-") %>">
           <h1><%= tournament.name %></h1>
           <p>
             Held at <%= date.getUTCHours() > 12 ? date.getUTCHours() - 12 : date.getUTCHours() === 0 ? 12 : date.getUTCHours() %>:<%= `${date.getUTCMinutes() < 10 ? "0" : ""}${date.getUTCMinutes()}` %><%= date.getUTCHours() >= 12 ? "pm" : "am" %> UTC on <%= date.getUTCFullYear() %>-<%= date.getUTCMonth() + 1 %>-<%= date.getUTCDate() %>.
@@ -79,7 +84,7 @@
                     <%= tournament.prizes[team.place - 1] %> <%- include("proton") %> for each player.
                   <% } %>
                 </p>
-                Members:
+                <span style="margin-bottom:.5rem">Members:</span>
                 <ul>
                   <% team.members.forEach((player) => { %>
                     <li><%= player %></li>
