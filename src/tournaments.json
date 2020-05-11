@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Salvage Cup 2",
+    "timestamp": 1586023200,
+    "bracket": "https://challonge.com/salvagecup2",
+    "casters": ["Grandy", "Vercidium"],
+    "prizes": [10000, 5000],
+    "stats": [
+      {
+        "name": "Highest Points",
+        "value": 38873,
+        "player": "Aranet"
+      },
+      {
+        "name": "Highest Kills",
+        "value": 352,
+        "player": "Coco"
+      },
+      {
+        "name": "Most Deaths",
+        "value": 148,
+        "player": "Just Santanya"
+      },
+      {
+        "name": "Most Headshots",
+        "value": 36,
+        "player": "deWolf"
+      },
+      {
+        "name": "Highest KDR",
+        "value": 1.984,
+        "player": "deWolf"
+      },
+      {
+        "name": "Highest Headshot Kill %",
+        "value": 30.2,
+        "player": "Pegarex"
+      },
+      {
+        "name": "Most Knife Kills",
+        "value": 27,
+        "player": "gen"
+      },
+      {
+        "name": "Most Blocks Placed",
+        "value": 17546,
+        "player": "Satisfied Onion"
+      },
+      {
+        "name": "Most Blocks Destroyed",
+        "value": 15393,
+        "player": "Foralux"
+      }
+    ],
+    "teams": [
+      {
+        "name": "Superteam 2: Electric Boogaloo",
+        "members": ["Aranet", "Coco", "deWolf", "Dodo Sandvich"],
+        "place": 1
+      },
+      {
+        "name": "The Inferior Team",
+        "members": ["Tank", "Satisfied Onion", "d3nk", "Foralux"],
+        "place": 2
+      },
+      {
+        "name": "& Randoms and a Dream",
+        "members": ["gen", "BlocknBoom", "NoLukeNoLife", "S!lence"],
+        "place": 4
+      },
+      {
+        "name": "True Blue Crew",
+        "members": ["Pegarex", "tTulonatotal", "SkiTTe", "Nascarboy"],
+        "place": 8
+      },
+      {
+        "name": "Xodoku_3a_nuB0M",
+        "members": ["DoomerCy", "Just Santanya", "Boymeat", "gordy"],
+        "place": 3
+      },
+      {
+        "name": "Wast//ES",
+        "members": ["papercat84", "RedHood", "rubi1991", "Reqnoc"],
+        "place": 5
+      },
+      {
+        "name": "Venatus Games",
+        "members": ["Jack", "FUZZEL", "Shawnx17", "Alex"],
+        "place": 6
+      },
+      {
+        "name": "Hissing noises",
+        "members": ["oecoll", "flufall", "Tenuous", "Azimuth"],
+        "place": 7
+      }
+    ]
+  }
+]

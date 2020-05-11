@@ -25,30 +25,80 @@
     <div class="section">
       <h1>Sector's Edge Tournament</h1>
       <p>We will be running a tournament on the 4th of April at 7pm GMT!</p>
-      <h4>Info</h4>
+      <h2>Info</h2>
       <p>It will be a knockout tournament, where each round is best-of-three on three different maps, on servers chosen for ping fairness.</p>
-      <p>As we are streaming the tournament on Twitch and will use recorded footage to advertise the game, we have decided to run the Salvage game mode as it better showcases the game mechanics and maps.</p>
-      <h4>Rewards</h4>
+      <p>As we are streaming the tournament on <a href="https://twitch.tv/vercidium" target="_blank" rel="noopener noreferrer">Twitch</a> and will use recorded footage to advertise the game, we have decided to run the Salvage game mode as it better showcases the game mechanics and maps.</p>
+      <h2>Rewards</h2>
       <p>
-        10000 <img src="proton.png" alt="protons" title="Protons"> for each player in the winning team.<br/>
+        10000 <img src="proton.png" alt="protons" title="Protons"> for each player in the winning team.<br>
         5000 <img src="proton.png" alt="protons" title="Protons"> for each player in the runner-up team.
       </p>
-      <p>Register your team of 4, or sign up individually and we will place you in a team:&nbsp;<a href="https://sectorsedge.com/tournament" target="_blank" rel="noopener noreferrer">sectorsedge.com/tournament</a>.</p>
+      <p>Register your team of 4, or sign up individually and we will place you in a team: <a href="https://sectorsedge.com/tournament" target="_blank" rel="noopener noreferrer">sectorsedge.com/tournament</a>.</p>
       <p>See you all at the Salvage Cup! May the best team win!</p>
-      <h4>Watch</h4>
-      <p>Streaming at:&nbsp;<a href="https://twitch.tv/vercidium" target="_blank" rel="noopener noreferrer">twitch.tv/vercidium</a>.</p>
+      <h2>Watch</h2>
+      <p>Streaming at: <a href="https://twitch.tv/vercidium" target="_blank" rel="noopener noreferrer">twitch.tv/vercidium</a>.</p>
+    </div>
+    <div class="section" id="tournaments">
+      <h2>Past Tournaments</h2>
+      <% tournaments.forEach((tournament) => {
+        const date = new Date(tournament.timestamp * 1000);
+      %>
+        <div>
+          <h1><%= tournament.name %></h1>
+          <p>Held at <%= date.getUTCHours() > 12 ? date.getUTCHours() - 12 : date.getUTCHours() === 0 ? 12 : date.getUTCHours() %>:<%= `${date.getUTCMinutes() < 10 ? "0" : ""}${date.getUTCMinutes()}` %><%= date.getUTCHours() >= 12 ? "pm" : "am" %> on <%= date.getUTCFullYear() %>-<%= date.getUTCMonth() + 1 %>-<%= date.getUTCDate() %> UTC.</p>
+          <h2>Statistics</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Value</th>
+                <th>Player</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% tournament.stats.forEach((stat) => { %>
+                <tr>
+                  <td><%= stat.name %></td>
+                  <td><%= stat.value %></td>
+                  <td><%= stat.player %></td>
+                </tr>
+              <% }) %>
+            </tbody>
+          </table>
+          <h2>Teams</h2>
+          <div class="cards">
+            <% tournament.teams.sort((a, b) => a.place > b.place).forEach((team) => { %>
+              <div>
+                <h2><%= team.name %></h2>
+                <p>
+                  <%= `${team.place}${team.place === 1 ? "st" : team.place === 2 ? "nd" : team.place === 3 ? "rd" : "th"}` %> place.
+                  <% if(tournament.prizes[team.place - 1]){ %>
+                    <%= tournament.prizes[team.place - 1] %> <img src="proton.png" alt="protons" title="Protons"> for each player.
+                  <% } %>
+                </p>
+                Members:
+                <ul>
+                  <% team.members.forEach((player) => { %>
+                    <li><%= player %></li>
+                  <% }) %>
+                </ul>
+              </div>
+            <% }) %>
+          </div>
+        </div>
+      <% }) %>
     </div>
     <div class="section">
-      <h1>Current Teams</h1><br/>
+      <h1>Current Teams</h1>
       <div class="cards">
-        <% teams.forEach(function(team){ %>
+        <% teams.forEach((team) => { %>
           <div>
-            <h4><%- team.name %></h4>
+            <h2><%- team.name %></h2>
             <p>
-              <b>Members</b><br/>
+              <b>Members</b><br>
               <!-- <%- team.members.join("<br>") %> -->
-              <% team.members.forEach(function(member, index){ %>
-                <%- member %>&nbsp;<small>(<%- team.countries[index] %>)</small><br>
+              <% team.members.forEach((member, index) => { %>
+                <%- member %> <small>(<%- team.countries[index] %>)</small><br>
               <% }); %>
             </p>
           </div>
@@ -74,7 +124,7 @@
         <a class="animated" href="https://vercidium.itch.io/sectorsedge" target="_blank" rel="noopener noreferrer">Itch</a>
         <a class="animated" href="https://emberapp.gg/profile/580-vercidium/" target="_blank" rel="noopener noreferrer">Ember</a>
       </div>
-    </div><br/>
+    </div>
     <p>© 2020 sectorsedge.com</p>
   </footer>
 </body>
