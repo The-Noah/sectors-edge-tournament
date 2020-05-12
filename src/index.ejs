@@ -75,7 +75,7 @@
           </table>
           <h2>Teams</h2>
           <div class="cards">
-            <% tournament.teams.sort((a, b) => a.place > b.place).forEach((team) => { %>
+            <% for(const team of tournament.teams.sort((a, b) => a.place > b.place)){ %>
               <div>
                 <h2><%= team.name %></h2>
                 <p>
@@ -91,7 +91,7 @@
                   <% }) %>
                 </ul>
               </div>
-            <% }) %>
+            <% } %>
           </div>
         </div>
       <% }) %>
