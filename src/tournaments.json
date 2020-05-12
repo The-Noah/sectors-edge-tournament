@@ -55,43 +55,35 @@
     "teams": [
       {
         "name": "Superteam 2: Electric Boogaloo",
-        "members": ["Aranet", "Coco", "deWolf", "Dodo Sandvich"],
-        "place": 1
+        "members": ["Aranet", "Coco", "deWolf", "Dodo Sandvich"]
       },
       {
         "name": "The Inferior Team",
-        "members": ["Tank", "Satisfied Onion", "d3nk", "Foralux"],
-        "place": 2
-      },
-      {
-        "name": "& Randoms and a Dream",
-        "members": ["gen", "BlocknBoom", "NoLukeNoLife", "S!lence"],
-        "place": 4
-      },
-      {
-        "name": "True Blue Crew",
-        "members": ["Pegarex", "tTulonatotal", "SkiTTe", "Nascarboy"],
-        "place": 8
+        "members": ["Tank", "Satisfied Onion", "d3nk", "Foralux"]
       },
       {
         "name": "Xodoku_3a_nuB0M",
-        "members": ["DoomerCy", "Just Santanya", "Boymeat", "gordy"],
-        "place": 3
+        "members": ["DoomerCy", "Just Santanya", "Boymeat", "gordy"]
+      },
+      {
+        "name": "& Randoms and a Dream",
+        "members": ["gen", "BlocknBoom", "NoLukeNoLife", "S!lence"]
       },
       {
         "name": "Wast//ES",
-        "members": ["papercat84", "RedHood", "rubi1991", "Reqnoc"],
-        "place": 5
+        "members": ["papercat84", "RedHood", "rubi1991", "Reqnoc"]
       },
       {
         "name": "Venatus Games",
-        "members": ["Jack", "FUZZEL", "Shawnx17", "Alex"],
-        "place": 6
+        "members": ["Jack", "FUZZEL", "Shawnx17", "Alex"]
       },
       {
         "name": "Hissing noises",
-        "members": ["oecoll", "flufall", "Tenuous", "Azimuth"],
-        "place": 7
+        "members": ["oecoll", "flufall", "Tenuous", "Azimuth"]
+      },
+      {
+        "name": "True Blue Crew",
+        "members": ["Pegarex", "tTulonatotal", "SkiTTe", "Nascarboy"]
       }
     ]
   },
@@ -150,24 +142,20 @@
     ],
     "teams": [
       {
-        "name": "Olympic Community Gaming",
-        "members": ["Markus", "Jeff", "Jeff's Cookies", "Rexer"],
-        "place": 4
-      },
-      {
-        "name": "Cool Inspirational Lords of Swag",
-        "members": ["gen", "Foralux", "Luke", "d3Nk"],
-        "place": 3
-      },
-      {
         "name": "Coco's Pink Unicorn Team",
-        "members": ["Coco", "Aranet", "Vercidium", "Glassar"],
-        "place": 1
+        "members": ["Coco", "Aranet", "Vercidium", "Glassar"]
       },
       {
         "name": "Dastardly Fiends",
-        "members": ["deWolf", "Dodo Sandwich", "Silence", "Nascarboy"],
-        "place": 2
+        "members": ["deWolf", "Dodo Sandwich", "Silence", "Nascarboy"]
+      },
+      {
+        "name": "Cool Inspirational Lords of Swag",
+        "members": ["gen", "Foralux", "Luke", "d3Nk"]
+      },
+      {
+        "name": "Olympic Community Gaming",
+        "members": ["Markus", "Jeff", "Jeff's Cookies", "Rexer"]
       }
     ]
   }
