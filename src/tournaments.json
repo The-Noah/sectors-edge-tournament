@@ -92,7 +92,7 @@
     "timestamp": 1574539200,
     "bracket": "se_salvagecup",
     "casters": ["Grandy", "Tank"],
-    "prizes": [],
+    "prizes": [10000],
     "stats": [
       {
         "name": "Highest Points",
