@@ -1,10 +1,96 @@
 [
   {
+    "name": "Salvage Cup 3",
+    "timestamp": 1590861600,
+    "bracket": "salvagecup3",
+    "casters": ["Grandy"],
+    "prizes": [
+      ["10000 protons", "Unique weapon skin", "In-game <b>Champion</b> badge+title"],
+      ["5000 protons", "In-game <b>Runner-Up</b> badge+title"]
+    ],
+    "stats": [
+      {
+        "name": "Highest Points",
+        "value": 44239,
+        "player": "Tank"
+      },
+      {
+        "name": "Highest Kills",
+        "value": 203,
+        "player": "Coco"
+      },
+      {
+        "name": "Most Deaths",
+        "value": 147,
+        "player": "Just Satanya"
+      },
+      {
+        "name": "Most Headshots",
+        "value": 94,
+        "player": "deWolf"
+      },
+      {
+        "name": "Highest KDR",
+        "value": 2.76,
+        "player": "deWolf"
+      },
+      {
+        "name": "Highest Headshot Kill %",
+        "value": 64.1,
+        "player": "Pegarex"
+      },
+      {
+        "name": "Most Knife Kills",
+        "value": 42,
+        "player": "gen"
+      },
+      {
+        "name": "Most Blocks Placed",
+        "value": 17979,
+        "player": "Dodo Sandvich"
+      },
+      {
+        "name": "Most Blocks Destroyed",
+        "value": 34453,
+        "player": "Dodo Sandvich"
+      }
+    ],
+    "teams": [
+      {
+        "name": "Superteam 3: Now on Blu-Ray",
+        "members": ["Aranet", "Coco", "deWolf", "Dodo Sandvich", "d3Nk", "Tank"]
+      },
+      {
+        "name": "[X]odoku_3a_nuB0M",
+        "members": ["DoomerCy", "Just Satanya", "gordon", "Boymeat", "Shporks", "FlippyLiam"]
+      },
+      {
+        "name": "Alternate Function 4",
+        "members": ["Vercidium", "Foralux", "NoLukeNoLife", "gen", "Pegarex", "Satisfied Onion"]
+      },
+      {
+        "name": "BUG",
+        "members": ["detow", "qlu", "Frostamist", "JayBird", "Floop", "Cryptic", "CatTitan (SUB)"]
+      },
+      {
+        "name": "TEAMLESS",
+        "members": ["R2D2Vader", "Jelmer8", "Mkar / Jun (after 30-60 minutes)", "S3F.", "SuperBirbCat", "The Gentleman"]
+      },
+      {
+        "name": "Birb",
+        "members": ["Dolpenguin", "BlocknBoom!", "Stromoto", "CHINGCHONG1020", "Nascarman", "S!lence"]
+      }
+    ]
+  },
+  {
     "name": "Salvage Cup 2",
     "timestamp": 1586023200,
     "bracket": "salvagecup2",
     "casters": ["Grandy", "Vercidium"],
-    "prizes": [10000, 5000],
+    "prizes": [
+      ["10000 protons"],
+      ["5000 protons"]
+    ],
     "stats": [
       {
         "name": "Highest Points",
@@ -59,7 +145,7 @@
       },
       {
         "name": "The Inferior Team",
-        "members": ["Tank", "Satisfied Onion", "d3nk", "Foralux"]
+        "members": ["Tank", "Satisfied Onion", "d3Nk", "Foralux"]
       },
       {
         "name": "Xodoku_3a_nuB0M",
@@ -92,7 +178,9 @@
     "timestamp": 1574539200,
     "bracket": "se_salvagecup",
     "casters": ["Grandy", "Tank"],
-    "prizes": [10000],
+    "prizes": [
+      ["10000 protons"]
+    ],
     "stats": [
       {
         "name": "Highest Points",
@@ -147,7 +235,7 @@
       },
       {
         "name": "Dastardly Fiends",
-        "members": ["deWolf", "Dodo Sandwich", "Silence", "Nascarboy"]
+        "members": ["deWolf", "Dodo Sandvich", "Silence", "Nascarboy"]
       },
       {
         "name": "Cool Inspirational Lords of Swag",
