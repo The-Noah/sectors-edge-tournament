@@ -3,7 +3,7 @@
     "name": "Salvage Cup 3",
     "timestamp": 1590861600,
     "bracket": "salvagecup3",
-    "casters": ["Grandy"],
+    "casters": [10],
     "prizes": [
       ["10000 protons", "Unique weapon skin", "In-game <b>Champion</b> badge+title"],
       ["5000 protons", "In-game <b>Runner-Up</b> badge+title"]
@@ -12,73 +12,73 @@
       {
         "name": "Highest Points",
         "value": 44239,
-        "player": "Tank"
+        "player": 14
       },
       {
         "name": "Highest Kills",
         "value": 203,
-        "player": "Coco"
+        "player": 100
       },
       {
         "name": "Most Deaths",
         "value": 147,
-        "player": "Just Satanya"
+        "player": 2842
       },
       {
         "name": "Most Headshots",
         "value": 94,
-        "player": "deWolf"
+        "player": 2001
       },
       {
         "name": "Highest KDR",
         "value": 2.76,
-        "player": "deWolf"
+        "player": 2001
       },
       {
         "name": "Highest Headshot Kill %",
         "value": 64.1,
-        "player": "Pegarex"
+        "player": 2679
       },
       {
         "name": "Most Knife Kills",
         "value": 42,
-        "player": "gen"
+        "player": 102
       },
       {
         "name": "Most Blocks Placed",
         "value": 17979,
-        "player": "Dodo Sandvich"
+        "player": 67
       },
       {
         "name": "Most Blocks Destroyed",
         "value": 34453,
-        "player": "Dodo Sandvich"
+        "player": 67
       }
     ],
     "teams": [
       {
         "name": "Superteam 3: Now on Blu-Ray",
-        "members": ["Aranet", "Coco", "deWolf", "Dodo Sandvich", "d3Nk", "Tank"]
+        "members": [105, 100, 2001, 67, 1948, 14]
       },
       {
         "name": "[X]odoku_3a_nuB0M",
-        "members": ["DoomerCy", "Just Satanya", "gordon", "Boymeat", "Shporks", "FlippyLiam"]
+        "members": [2836, 2842, 2879, -3, 3126, 3127]
       },
       {
         "name": "Alternate Function 4",
-        "members": ["Vercidium", "Foralux", "NoLukeNoLife", "gen", "Pegarex", "Satisfied Onion"]
+        "members": [4, 35, 1144, 102, 2679, 2280]
       },
       {
         "name": "BUG",
-        "members": ["detow", "qlu", "Frostamist", "JayBird", "Floop", "Cryptic", "CatTitan (SUB)"]
+        "members": [3042, 3289, 3044, 3158, -6, 3254, 3092]
       },
       {
         "name": "TEAMLESS",
-        "members": ["R2D2Vader", "Jelmer8", "Mkar / Jun (after 30-60 minutes)", "S3F.", "SuperBirbCat", "The Gentleman"]
+        "members": [2988, -7, "Mkar / Jun (after 30-60 minutes)", 3207, -10, -11]
       },
       {
         "name": "Birb",
-        "members": ["Dolpenguin", "BlocknBoom!", "Stromoto", "CHINGCHONG1020", "Nascarman", "S!lence"]
+        "members": [1759, -12, 3546, -13, 1172, 2002]
       }
     ]
   },
@@ -86,7 +86,7 @@
     "name": "Salvage Cup 2",
     "timestamp": 1586023200,
     "bracket": "salvagecup2",
-    "casters": ["Grandy", "Vercidium"],
+    "casters": [10, 4],
     "prizes": [
       ["10000 protons"],
       ["5000 protons"]
@@ -95,65 +95,65 @@
       {
         "name": "Highest Points",
         "value": 38873,
-        "player": "Aranet"
+        "player": 105
       },
       {
         "name": "Highest Kills",
         "value": 152,
-        "player": "Coco"
+        "player": 100
       },
       {
         "name": "Most Deaths",
         "value": 148,
-        "player": "Just Satanya"
+        "player": 2842
       },
       {
         "name": "Most Headshots",
         "value": 36,
-        "player": "deWolf"
+        "player": 2001
       },
       {
         "name": "Highest KDR",
         "value": 1.984,
-        "player": "deWolf"
+        "player": 2001
       },
       {
         "name": "Highest Headshot Kill %",
         "value": 30.2,
-        "player": "Pegarex"
+        "player": 2679
       },
       {
         "name": "Most Knife Kills",
         "value": 27,
-        "player": "gen"
+        "player": 102
       },
       {
         "name": "Most Blocks Placed",
         "value": 17546,
-        "player": "Satisfied Onion"
+        "player": 2280
       },
       {
         "name": "Most Blocks Destroyed",
         "value": 15393,
-        "player": "Foralux"
+        "player": 35
       }
     ],
     "teams": [
       {
         "name": "Superteam 2: Electric Boogaloo",
-        "members": ["Aranet", "Coco", "deWolf", "Dodo Sandvich"]
+        "members": [105, 100, 2001, 67]
       },
       {
         "name": "The Inferior Team",
-        "members": ["Tank", "Satisfied Onion", "d3Nk", "Foralux"]
+        "members": [14, 2280, 1948, 35]
       },
       {
         "name": "Xodoku_3a_nuB0M",
-        "members": ["DoomerCy", "Just Satanya", "Boymeat", "gordy"]
+        "members": [2836, 2842, -3, 2879]
       },
       {
         "name": "& Randoms and a Dream",
-        "members": ["gen", "BlocknBoom", "NoLukeNoLife", "S!lence"]
+        "members": [102, -12, 1144, 2002]
       },
       {
         "name": "Wast//ES",
@@ -169,7 +169,7 @@
       },
       {
         "name": "True Blue Crew",
-        "members": ["Pegarex", "tTulonatotal", "SkiTTe", "Nascarboy"]
+        "members": [2679, "tTulonatotal", "SkiTTe", 1172]
       }
     ]
   },
@@ -177,7 +177,7 @@
     "name": "Salvage Cup 1",
     "timestamp": 1574539200,
     "bracket": "se_salvagecup",
-    "casters": ["Grandy", "Tank"],
+    "casters": [10, 14],
     "prizes": [
       ["10000 protons"]
     ],
@@ -185,27 +185,27 @@
       {
         "name": "Highest Points",
         "value": 39616,
-        "player": "deWolf"
+        "player": 2001
       },
       {
         "name": "Highest Kills",
         "value": 202,
-        "player": "deWolf"
+        "player": 2001
       },
       {
         "name": "Most Deaths",
         "value": 158,
-        "player": "Dodo_Sandvich"
+        "player": 67
       },
       {
         "name": "Most Headshots",
         "value": 52,
-        "player": "deWolf"
+        "player": 2001
       },
       {
         "name": "Highest KDR",
         "value": 2.468,
-        "player": "Coco"
+        "player": 100
       },
       {
         "name": "Highest Headshot Kill %",
@@ -215,31 +215,31 @@
       {
         "name": "Most Knife Kills",
         "value": 9,
-        "player": "gen"
+        "player": 102
       },
       {
         "name": "Most Blocks Placed",
         "value": 14875,
-        "player": "Dodo_Sandvich"
+        "player": 67
       },
       {
         "name": "Most Blocks Destroyed",
         "value": 22496,
-        "player": "Vercidium"
+        "player": 4
       }
     ],
     "teams": [
       {
         "name": "Coco's Pink Unicorn Team",
-        "members": ["Coco", "Aranet", "Vercidium", "Glassar"]
+        "members": [100, 105, 4, "Glassar"]
       },
       {
         "name": "Dastardly Fiends",
-        "members": ["deWolf", "Dodo Sandvich", "Silence", "Nascarboy"]
+        "members": [2001, 67, 2002, 1172]
       },
       {
         "name": "Cool Inspirational Lords of Swag",
-        "members": ["gen", "Foralux", "Luke", "d3Nk"]
+        "members": [102, 35, 1144, 1948]
       },
       {
         "name": "Olympic Community Gaming",
